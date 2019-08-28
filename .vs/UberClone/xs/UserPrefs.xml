@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{BD3796BA-C0FD-46A0-941C-EC958896E6B2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UberClone/Main.storyboard">
+    <Files>
+      <File FileName="UberClone/ViewController.cs" Line="23" Column="10" />
+      <File FileName="UberClone/Main.storyboard" />
+      <File FileName="UberClone/LoginViewController.cs" Line="12" Column="1" />
+      <File FileName="UberClone/SignUpViewController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UberClone" expanded="True">
+            <Node name="UberClone" expanded="True">
+              <Node name="Main.storyboard" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.UberClone PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E921D7C6-BD87-4D4D-89D5-0080CFB8BE77" HideGettingStarted="True" />
+</Properties>

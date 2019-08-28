@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/phihoanghuy/Projects/UberClone/UberClone/UberClone.csproj": {}
+  },
+  "projects": {
+    "/Users/phihoanghuy/Projects/UberClone/UberClone/UberClone.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/phihoanghuy/Projects/UberClone/UberClone/UberClone.csproj",
+        "projectName": "UberClone",
+        "projectPath": "/Users/phihoanghuy/Projects/UberClone/UberClone/UberClone.csproj",
+        "packagesPath": "/Users/phihoanghuy/.nuget/packages/",
+        "outputPath": "/Users/phihoanghuy/Projects/UberClone/UberClone/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/phihoanghuy/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/Users/phihoanghuy/Projects/UberClone/UberClone/bin/iPhoneSimulator/Debug/UberClone.exe
+/Users/phihoanghuy/Projects/UberClone/UberClone/bin/iPhoneSimulator/Debug/UberClone.pdb
+/Users/phihoanghuy/Projects/UberClone/UberClone/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/phihoanghuy/Projects/UberClone/UberClone/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/_PartialAppManifest.items
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/actool/_BundleResourceWithLogicalName.items
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/coremlc/_PartialAppManifest.items
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/UberClone.csprojAssemblyReference.cache
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/UberClone.csproj.CoreCompileInputs.cache
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/UberClone.csproj.CopyComplete
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/UberClone.exe
+/Users/phihoanghuy/Projects/UberClone/UberClone/obj/iPhoneSimulator/Debug/UberClone.pdb
