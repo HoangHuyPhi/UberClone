@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/phihoanghuy/Projects/UberClone/UberClone/UberClone.csproj": {}
+    "/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/UberClone.csproj": {}
   },
   "projects": {
-    "/Users/phihoanghuy/Projects/UberClone/UberClone/UberClone.csproj": {
+    "/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/UberClone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/phihoanghuy/Projects/UberClone/UberClone/UberClone.csproj",
+        "projectUniqueName": "/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/UberClone.csproj",
         "projectName": "UberClone",
-        "projectPath": "/Users/phihoanghuy/Projects/UberClone/UberClone/UberClone.csproj",
+        "projectPath": "/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/UberClone.csproj",
         "packagesPath": "/Users/phihoanghuy/.nuget/packages/",
-        "outputPath": "/Users/phihoanghuy/Projects/UberClone/UberClone/obj/",
+        "outputPath": "/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -35,6 +35,18 @@
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.1.0, )"
+            },
+            "Xamarin.Firebase.iOS.Analytics": {
+              "target": "Package",
+              "version": "[4.0.5, )"
+            },
+            "Xamarin.Firebase.iOS.Auth": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "Xamarin.Firebase.iOS.Core": {
+              "target": "Package",
+              "version": "[4.0.13, )"
             }
           }
         }

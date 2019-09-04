@@ -1,6 +1,5 @@
 ﻿using Foundation;
 using UIKit;
-
 namespace UberClone
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the
@@ -20,7 +19,7 @@ namespace UberClone
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
-
+            Firebase.Core.App.Configure();
             return true;
         }
 

@@ -1,7 +1,8 @@
 ﻿using Foundation;
 using System;
 using UIKit;
-
+using Firebase.Auth;
+using System.Threading.Tasks; 
 namespace UberClone
 {
     public partial class ViewController : UIViewController
@@ -14,6 +15,33 @@ namespace UberClone
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+            SignInButton.TouchUpInside += async (sender, e) =>
+            {
+                string Token = await LoginWithEmailPassword(email.Text, password.Text);
+                if (Token != "")
+                {
+                    this.PerformSegue("GoToMap", this);
+                }
+                else 
+                {
+                    var errorAlertController = UIAlertController.Create("Error", "Can't login to the screen", UIAlertControllerStyle.Alert);
+                    errorAlertController.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
+                    PresentViewController(errorAlertController, true, null);
+                }
+            };
+        }
+
+        public async Task<string> LoginWithEmailPassword(string email, string password)
+        {
+            try
+            {
+                var user = await Auth.DefaultInstance.SignInAsync(email, password);
+                return await user.GetIdTokenAsync(); 
+            }
+            catch
+            {
+                return "";
+            }
         }
 
         public override void DidReceiveMemoryWarning()
