@@ -1,4 +1,4 @@
-/Users/phihoanghuy/Downloads/UberClone-master/UberClone/bin/iPhoneSimulator/Debug/UberClone.exe
+/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/bin/iPhoneSimulator/Debug/UberClone.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.14.0.114/lib/mono/Xamarin.iOS/System.dll

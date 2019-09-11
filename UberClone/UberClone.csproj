@@ -150,6 +150,7 @@
         <Compile Include="MapViewController.designer.cs">
           <DependentUpon>MapViewController.cs</DependentUpon>
         </Compile>
+        <Compile Include="MapViewDelegate.cs" />
     </ItemGroup>
     <ItemGroup>
       <BundleResource Include="GoogleService-Info.plist" />

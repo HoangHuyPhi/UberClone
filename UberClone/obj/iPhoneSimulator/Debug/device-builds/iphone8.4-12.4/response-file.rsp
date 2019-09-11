@@ -1,5 +1,5 @@
---cache=/Users/phihoanghuy/Downloads/UberClone-master/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.4/mtouch-cache
---sim=/Users/phihoanghuy/Downloads/UberClone-master/UberClone/bin/iPhoneSimulator/Debug/device-builds/iphone8.4-12.4/UberClone.app
+--cache=/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.4/mtouch-cache
+--sim=/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/bin/iPhoneSimulator/Debug/device-builds/iphone8.4-12.4/UberClone.app
 --executable=UberClone
  --debug
  --sgen-conc
@@ -10,7 +10,7 @@
  --aot-options=-O=-float32
  --http-message-handler=NSUrlSessionHandler
  --abi=x86_64
---symbollist=/Users/phihoanghuy/Downloads/UberClone-master/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.4/mtouch-symbols.list
+--symbollist=/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone8.4-12.4/mtouch-symbols.list
  --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
@@ -22,6 +22,10 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
 -r=/Users/phihoanghuy/.nuget/packages/xamarin.essentials/1.1.0/lib/xamarinios10/Xamarin.Essentials.dll
+-r=/Users/phihoanghuy/.nuget/packages/xamarin.firebase.ios.analytics/4.0.5/lib/Xamarin.iOS10/Firebase.Analytics.dll
+-r=/Users/phihoanghuy/.nuget/packages/xamarin.firebase.ios.auth/4.4.1/lib/Xamarin.iOS10/Firebase.Auth.dll
+-r=/Users/phihoanghuy/.nuget/packages/xamarin.firebase.ios.core/4.0.13/lib/Xamarin.iOS10/Firebase.Core.dll
+-r=/Users/phihoanghuy/.nuget/packages/xamarin.firebase.ios.instanceid/2.0.8/lib/Xamarin.iOS10/Firebase.InstanceID.dll
  --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/phihoanghuy/Downloads/UberClone-master/UberClone/bin/iPhoneSimulator/Debug/UberClone.exe
+--root-assembly=/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/bin/iPhoneSimulator/Debug/UberClone.exe
  
