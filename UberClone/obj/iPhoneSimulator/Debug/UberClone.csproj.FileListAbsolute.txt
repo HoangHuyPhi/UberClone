@@ -61,3 +61,4 @@
 /Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/coremlc/_BundleResourceWithLogicalName.items
 /Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/GoogleService-Info.plist
 /Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/
+/Users/phihoanghuy/Downloads/CSharp/Uber/UberClone/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.4/optimized/UberImage.png

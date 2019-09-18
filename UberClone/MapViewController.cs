@@ -24,11 +24,13 @@ namespace UberClone
             mapView.MapType = MKMapType.Standard; 
             View = mapView;
             mapView.ShowsUserLocation = true;
+            // Add annotations 
             mapView.AddAnnotation(new MKPointAnnotation()
             {
                 Title = "Your Location",
-                Coordinate = new CLLocationCoordinate2D(42.364260, -71.120824)
+                Coordinate = new CLLocationCoordinate2D(-35.3160, 149.1070)
             });
+            mapView.AddAnnotation(new DriverAnnotation(("Driver Location"), new CLLocationCoordinate2D(-35.3169, 149.1075)));
 
             // set the map delegate
             mapDelegate = new MapViewDelegate();
@@ -36,20 +38,12 @@ namespace UberClone
 
 
             // Add map center 
-            const double lat = 42.374260;
-            const double lon = -71.120824;
+            const double lat = -35.3160;
+            const double lon = 149.1070;
             var mapCenter = new CLLocationCoordinate2D(lat, lon);
-            var mapRegion = MKCoordinateRegion.FromDistance(mapCenter, 2000, 2000);
+            var mapRegion = MKCoordinateRegion.FromDistance(mapCenter, 100, 100);
             mapView.CenterCoordinate = mapCenter;
             mapView.Region = mapRegion;
-
-
-
-
-            // display user's current location 
-            CLLocationManager locationManager = new CLLocationManager();
-            locationManager.RequestWhenInUseAuthorization();
-
         }
     }
 }

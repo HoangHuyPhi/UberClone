@@ -151,9 +151,11 @@
           <DependentUpon>MapViewController.cs</DependentUpon>
         </Compile>
         <Compile Include="MapViewDelegate.cs" />
+        <Compile Include="DriverAnnotation.cs" />
     </ItemGroup>
     <ItemGroup>
       <BundleResource Include="GoogleService-Info.plist" />
+      <BundleResource Include="Resources\UberImage.png" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

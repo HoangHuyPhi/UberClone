@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{BD3796BA-C0FD-46A0-941C-EC958896E6B2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="UberClone/MapViewDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UberClone/Main.storyboard">
     <Files>
-      <File FileName="UberClone/MapViewController.cs" Line="37" Column="1" />
-      <File FileName="../../Xamarin_iOS___Map_Demo/MapDemo/MapViewController.cs" Line="35" Column="28" />
-      <File FileName="UberClone/MapViewDelegate.cs" Line="22" Column="1" />
+      <File FileName="UberClone/MapViewDelegate.cs" Line="18" Column="39" />
       <File FileName="../../Xamarin_iOS___Map_Demo/MapDemo/MapViewDelegate.cs" />
+      <File FileName="UberClone/SignUpViewController.cs" />
+      <File FileName="UberClone/ViewController.cs" />
+      <File FileName="UberClone/DriverAnnotation.cs" />
+      <File FileName="UberClone/MapViewController.cs" />
+      <File FileName="UberClone/Main.storyboard" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +15,8 @@
           <Node name="UberClone" expanded="True">
             <Node name="UberClone" expanded="True">
               <Node name="References" expanded="True" />
-              <Node name="MapViewDelegate.cs" selected="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="Main.storyboard" selected="True" />
             </Node>
           </Node>
         </State>
