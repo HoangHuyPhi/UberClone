@@ -6,8 +6,18 @@ namespace UberClone
     public class MapViewDelegate : MKMapViewDelegate
     {
         private string userID = "User";
-        private string driverID = "Dribver"; 
+        private string driverID = "Driver"; 
         UIImage car = new UIImage("UberImage.png");
+        public override MKOverlayRenderer OverlayRenderer(MKMapView mapView, IMKOverlay overlay)
+        {
+            if (overlay is MKPolyline)
+            {
+                var route = (MKPolyline)overlay;
+                var renderer = new MKPolylineRenderer(route) { StrokeColor = UIColor.Blue };
+                return renderer;
+            }
+            return null;
+        }
         public override MKAnnotationView GetViewForAnnotation(MKMapView mapView, IMKAnnotation annotation)
         {
             MKAnnotationView pinView = null;
@@ -22,6 +32,7 @@ namespace UberClone
                 pinView.RightCalloutAccessoryView = UIButton.FromType(UIButtonType.DetailDisclosure);
                 pinView.Draggable = true;
                 pinView.Image = ResizeImage(UIImage.FromFile("UberImage.png"), 50, 50);
+                pinView.LeftCalloutAccessoryView = new UIImageView(ResizeImage(UIImage.FromFile("DriverImage.png"), 50, 50)); 
             } else
             {
                 var annotationView = mapView.DequeueReusableAnnotation(userID) as MKPinAnnotationView ?? new MKPinAnnotationView(annotation, userID);
@@ -41,5 +52,6 @@ namespace UberClone
             UIGraphics.EndImageContext();
             return resultImage;
         }
+        // Add Polyline
     }
 }

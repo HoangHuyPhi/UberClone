@@ -12,6 +12,10 @@ namespace UberClone
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            View.BackgroundColor = new UIColor(patternImage: new UIImage("background.png"));
+            createButton.Layer.CornerRadius = 10;
+            createButton.Layer.BorderWidth = 1;
+            createButton.Layer.BorderColor = UIColor.White.CGColor; 
             createButton.TouchUpInside += async (sender, e) =>
             {
                 string Token = await CreateWithEmailPassword(email.Text, password.Text);

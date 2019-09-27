@@ -1,22 +1,27 @@
 ﻿<Properties StartupConfiguration="{BD3796BA-C0FD-46A0-941C-EC958896E6B2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="UberClone/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UberClone/SearchViewController.cs">
     <Files>
-      <File FileName="UberClone/MapViewDelegate.cs" Line="18" Column="39" />
-      <File FileName="../../Xamarin_iOS___Map_Demo/MapDemo/MapViewDelegate.cs" />
-      <File FileName="UberClone/SignUpViewController.cs" />
-      <File FileName="UberClone/ViewController.cs" />
-      <File FileName="UberClone/DriverAnnotation.cs" />
+      <File FileName="UberClone/SearchViewController.cs" Line="83" Column="10" />
       <File FileName="UberClone/MapViewController.cs" />
-      <File FileName="UberClone/Main.storyboard" />
+      <File FileName="UberClone/SignUpViewController.cs" />
+      <File FileName="UberClone/MapViewDelegate.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UberClone" expanded="True">
             <Node name="UberClone" expanded="True">
-              <Node name="References" expanded="True" />
               <Node name="Resources" expanded="True" />
-              <Node name="Main.storyboard" selected="True" />
+              <Node name="SearchViewController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="UberClone" expanded="True" selected="True">
+            <Node name="UberClone" expanded="True">
+              <Node name="References" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -29,5 +34,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.UberClone automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E921D7C6-BD87-4D4D-89D5-0080CFB8BE77" HideGettingStarted="True" />
+  <MonoDevelop.Ide.ItemProperties.UberClone automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1AF6A8CD-22E6-4156-A145-5B5D5CD9558D" HideGettingStarted="True" />
 </Properties>

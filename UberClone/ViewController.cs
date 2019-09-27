@@ -15,6 +15,13 @@ namespace UberClone
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+            View.BackgroundColor = new UIColor(patternImage: new UIImage("background.png"));
+            SignInButton.Layer.CornerRadius = 10;
+            SignInButton.Layer.BorderWidth = 1;
+            SignUpButton.Layer.CornerRadius = 10;
+            SignUpButton.Layer.BorderWidth = 1;
+            SignUpButton.Layer.BorderColor = UIColor.White.CGColor;
+            SignInButton.Layer.BorderColor = UIColor.White.CGColor;
             SignInButton.TouchUpInside += async (sender, e) =>
             {
                 string Token = await LoginWithEmailPassword(email.Text, password.Text);
@@ -24,7 +31,7 @@ namespace UberClone
                 }
                 else 
                 {
-                    var errorAlertController = UIAlertController.Create("Error", "Can't login to the screen", UIAlertControllerStyle.Alert);
+                    var errorAlertController = UIAlertController.Create("Error", "Email or password is invalid", UIAlertControllerStyle.Alert);
                     errorAlertController.AddAction(UIAlertAction.Create("OK", UIAlertActionStyle.Default, null));
                     PresentViewController(errorAlertController, true, null);
                 }

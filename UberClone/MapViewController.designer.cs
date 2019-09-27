@@ -14,5 +14,8 @@ namespace UberClone
     [Register ("MapViewController")]
     partial class MapViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }
